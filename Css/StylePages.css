@@ -1,0 +1,196 @@
+body{
+	background-position: center;
+	background-size: cover;
+	background-image: url(./../Img/Sfondo.jpg);
+	background-attachment: fixed;
+}
+
+.Top-Bar{
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(8px);
+	border-radius: 30px;
+}
+
+.testo-header{
+	font-size: 250%;
+	font-family: 'Dancing Script';
+	font-weight: bold;
+	color: #ff2400;
+	text-align: center;
+}
+
+.img-header{
+	width: 25%;
+}
+
+.img-link-header:hover{
+	cursor: pointer;
+}
+
+#NavBar{
+	width: 25%;
+	animation-name: Appari;
+	animation-duration: 1s;
+	backdrop-filter: blur(8px);
+	background-color: #007fff44;
+	border: none;
+	border-radius: 10px;
+}
+
+@keyframes Appari {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 25%;
+	}
+
+}
+
+#NavBar-hidden{
+	animation-name: Scompari;
+	animation-duration: 1s;
+	backdrop-filter: blur(8px);
+	background-color: #007fff44;
+	border: none;
+	border-radius: 10px;
+}
+
+@keyframes Scompari {
+	from {
+		width: 25%;
+	}
+	to {
+		width: 0%;
+	}
+
+}
+
+.fix{
+	position: fixed;
+}
+
+.Item-Hidden{
+	visibility: hidden;
+}
+
+.image-NavBar{
+	width: 20%;
+}
+
+.testo-link{
+	color: black;
+	font-family: 'Silkscreen';
+}
+
+#Menu{
+	border: none;
+	background-color: transparent;
+	font-size: 120%;
+	color: #ff6347;
+	text-decoration: underline;
+	font-family: 'Silkscreen';
+}
+
+.Button-X{
+	background-color: transparent;
+	border: none;
+	font-size: 100%;
+	font-family: 'Silkscreen';
+}
+
+.Button-X:hover{
+	color: #ff0000;
+}
+
+.Img-Lg20{
+	border-radius: 20px;
+}
+
+.testo-Lg20{
+	color: #ff2400;
+	font-family: 'Silkscreen';
+}
+
+.argomento{
+	border-radius: 20px;
+	background-color: #0f0fff90;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titolo{
+	font-family: 'Silkscreen';
+	text-align: center;
+	color: #ff2400;
+}
+
+.spiegazione{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	color: #ffffff;
+}
+
+.codice{
+	font-family: 'Nanum Gothic Coding';
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.ImmagineProgrammazione{
+	width: 30%;
+}
+
+.link-indice{
+	text-decoration: none;
+	color: #ffbf00;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	animation-name: cambiasfondoIndiceOut;
+	animation-duration: 0.5s;
+	font-weight: bold;
+}
+
+.link-indice:hover{
+	animation-name: cambiasfondoIndiceIn;
+	animation-duration: 0.5s;
+	text-decoration: none;
+	color: #ff2400;
+	background-color: #ffffff90;
+}
+
+@keyframes cambiasfondoIndiceIn {
+	from {
+		background-color: transparent;
+		color: #ffbf00;
+	}
+	to {
+		background-color: #ffffff90;
+		color: #ff2400;
+	}
+}
+
+@keyframes cambiasfondoIndiceOut {
+	from {
+		background-color: #ffffff;
+	}
+	to {
+		background-color: transparent;
+	}
+}
+
+.title-indice{
+	font-family: 'Silkscreen';
+	text-align: center;
+	color: #00ff00;
+	font-size: 220%;
+}
+
+.separatore{
+	height: 10px;
+}

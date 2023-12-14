@@ -1,0 +1,119 @@
+body{
+	background-position: center;
+	background-size: cover;
+	background-image: url(./../Img/Sfondo.jpg);
+	background-attachment: fixed;
+}
+
+.Top-Bar{
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(8px);
+	border-radius: 30px;
+}
+
+.testo-header{
+	font-size: 250%;
+	font-family: 'Dancing Script';
+	font-weight: bold;
+	color: #ff2400;
+}
+
+.img-header{
+	width: 25%;
+}
+
+.nome{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1014d8;
+	font-size: 200%;
+	font-family: 'Silkscreen';
+}
+
+.linguaggio{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.card-Linguaggio{
+	border-radius: 20px;
+	background-color: #d85d10;
+	animation-name: cambiasfondoOut;
+	animation-duration: 1s;
+}
+
+.card-Linguaggio:hover{
+	animation-name: cambiasfondoIn;
+	animation-duration: 1s;
+	background-color: #10d816;
+}
+
+@keyframes cambiasfondoIn {
+	from {
+		background-color: #d85d10;
+	}
+	to {
+		background-color: #10d816;
+	}
+}
+
+@keyframes cambiasfondoOut {
+	from {
+		background-color: #10d816;
+	}
+	to {
+		background-color: #d85d10;
+	}
+}
+
+.Img-Linguaggio{
+	width: 100%;
+	animation-name: CambiaDimensioniOut;
+	animation-duration: 1s;
+}
+
+.card-Linguaggio:hover .Img-Linguaggio{
+	animation-name: CambiaDimensioniIn;
+	animation-duration: 1s;
+	width: 80%;
+}	
+
+@keyframes CambiaDimensioniIn {
+	from {
+		width: 100%;
+	}
+	to {
+		width: 80%;
+	}
+
+}
+
+@keyframes CambiaDimensioniOut {
+	from {
+		width: 80%;
+	}
+	to {
+		width: 100%;
+	}
+
+}
+
+.img-link-header:hover{
+	cursor: pointer;
+}
+
+.footer{
+	font-family: 'Dancing Script';
+	color: #ff2400;
+	font-size: 150%;
+	text-transform: capitalize;
+	backdrop-filter: blur(8px);
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+}
