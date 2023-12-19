@@ -14,12 +14,12 @@ const Appari=()=>{
 	setTimeout(()=>{
 		let item=document.querySelectorAll(".nav-item")
 		for (let i = 0; i < item.length; i++) {
-			item[i].setAttribute("class","nav-item")	
+			item[i].setAttribute("class","nav-item col-12 col-sm-6")	
 		}
 	},520)
 	setTimeout(()=>{
 		document.querySelector("#DivButton").setAttribute("class","d-flex align-items-end justify-content-end me-3 mt-1")
-	},1000)
+	},850)
 }
 
 const Scompari=()=>{
@@ -31,7 +31,7 @@ const Scompari=()=>{
 	setTimeout(()=>{
 		let item=document.querySelectorAll(".nav-item")
 		for (let i = 0; i < item.length; i++) {
-			item[i].setAttribute("class","nav-item Item-Hidden")	
+			item[i].setAttribute("class","nav-item Item-Hidden col-12 col-sm-6")	
 		}
 	},100)
 	
