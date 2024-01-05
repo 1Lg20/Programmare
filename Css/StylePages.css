@@ -154,6 +154,7 @@ body{
 	animation-name: cambiasfondoIndiceOut;
 	animation-duration: 0.5s;
 	font-weight: bold;
+	text-align: center;
 }
 
 .link-indice:hover{
