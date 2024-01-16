@@ -40,15 +40,19 @@
 				<div class="col-10 title-indice">INDICE</div>
 				<div class="col-10 col-sm-5 mt-2">
 					<div class="row align-items-center justify-content-center flex-column">
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#REACT">INCLUDERE REACT</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#PACKAGE">PACKAGE.JSON</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#INIZIO">PER INIZIARE</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#PAGINE">CREARE PAGINE</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#PROVARE">PROVARE PAGINE</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#CSS">IMPORTARE IL CSS</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#JS">JAVASCRIPT</a></div>
 					</div>
 				</div>
 				<div class="col-10 col-sm-5">
 					<div class="row align-items-center justify-content-center flex-column">
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#USESTATE">USESTATE</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#USEREF">USEREF</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
@@ -62,6 +66,94 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<!-- Singolo elemento -->
 				<!-- Div da usare come link per portare giusto con navbar(Se facevo il link ala row andava sotto la navbar) -->
+				<div id="REACT" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>INCLUDERE REACT</h3></div>
+						<div class="col-11 spiegazione mt-2">React è una libreria di Javascript che permette di creare delle web-app, ovvero delle applicazioni che funzionano all'interno del nostro browser. <br> Un altra caratteristica di react è che la pagina non si ricarica mai, avitando di aspettre un caricamento tra un una pagina e un altra. <br>Per utilizzare react è necessario avere l' NPM installato sul proprio pc, reperibile installando NodeJs, successivamente aprire un terminale nella cartella deve si vuole lavorare e digitare il comando per creare una app in react. <br>Inoltre è consigliabile installare l'estensione di reactJs per Visual studio code</div>
+						<div class="col-11 mt-2 codice mb-2">npm create-react-app nomeCartella</div>
+					</div>
+				</div>
+				<div id="PACKAGE" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>PACKAGE.JSON</h3></div>
+						<div class="col-11 spiegazione mt-2">Il file package.json è un file molto importante per in nostro progetto, <br> al suo interno sono scritte tutti i moduli che andiamo a utilizzare nel nostro progetto. <br> questi moduli sono all'interno della cartella node_modules, possimo anche scaricarne di altri l'unica cosa a cui bisogna prestare attenzione sono le dipendenze. <br>Infatti ogni modulo ha le proprie dipendenze, che andrà a scaricare quando scaricachiamo il modulo stesso. <br> Per vedere le dipendenze basta aprire il teminae nela cartella del progetto e digitare:</div>
+						<div class="col-11 mt-2 codice mb-2">npm ls -a</div>
+					</div>
+				</div>
+				<div id="INIZIO" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>PER INIZIARE</h3></div>
+						<div class="col-11 spiegazione mt-2">In react per creare pagine web lavoro all'interno del file app.js, all'interno della cartella src. <br> All'inizio è già presente del codice, ma noi cancelliamo l'intero contenuto del file e, usando l'esensione di react per VSCode scriviamo il comando per creare il nostro componente: </div>
+						<div class="col-11 mt-2 codice mb-2">racfe</div>
+					</div>
+				</div>
+				<div id="PAGINE" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>CREARE PAGINE</h3></div>
+						<div class="col-11 spiegazione mt-2">In react per non si utilizza il linguaggio HTML, ma il linguaggio JSX ovvero un incrocio tra javascript e HTML. <br> Per creare una pagina è sufficiente scrivere il codice HTML all'interno del return, ci sono alcuni cambiamenti dall' HTML, principalemente l'attributo class che in react si chiama ClassName, e per il fatto che la return ritorna solo 1 div, quindi è necessario contenere tutti gli altri tag all'interno di un div padre.</div>
+						<div class="col-11 mt-2 codice mb-2">return( <br>&ltdiv ClassName="classe" &gt <br> <br> &lt/div&gt<br> )</div>
+					</div>
+				</div>
+				<div id="PROVARE" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>PROVARE PAGINE</h3></div>
+						<div class="col-11 spiegazione mt-2">Per provare le pagine in react e necessario di nuovo usare l'npm, questa volta besta aprire un terminale nella cartella del progetto e digitare il seguente comando:</div>
+						<div class="col-11 mt-2 codice mb-2">npm start</div>
+					</div>
+				</div>
+				<div id="CSS" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>IMPORTARE IL CSS</h3></div>
+						<div class="col-11 spiegazione mt-2">Per utilizzare il css è necessario importarlo nel nell'app.js mediante il comndo import, subito all'inizio del file</div>
+						<div class="col-11 mt-2 codice mb-2">import ./App.css</div>
+					</div>
+				</div>
+				<div id="JS" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>JAVASCRIPT</h3></div>
+						<div class="col-11 spiegazione mt-2">Per creare delle funzioni javascript in react basta creare dell Arrow-Function all'interno del componente ma prima del retrun</div>
+						<div class="col-11 mt-2 codice mb-2">function App() { <br>const Funzione=()=>{ <br> console.log("ciao") } <br> return( <br>&ltdiv ClassName="classe" &gt &lt/div&gt<br> ) }</div>
+					</div>
+				</div>
+				<div id="USESTATE" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>USESTATE</h3></div>
+						<div class="col-11 spiegazione mt-2">In react per stampare variabili non è possibile usare quaryselector o getelementbyid, ma è necessario usare gli stati, che permettono di modificare la pagina senza aggiornarla <br>Questo Hook ci permette di creare una variabile prima e dopo una "funzione" da usare per variare il contenuto del'hook. <br> Quando definiamo lo stato possiamo inizializarlo a un valore che possimo scrivere tra le parentesi dopo "useState"</div>
+						<div class="col-11 mt-2 codice mb-2">import React,{UseState} from 'react' <br> function App() { <br> const [stato,setstato]=useState("") <br>const Funzione=()=>{ <br> setstato("Ciao") } <br> return( <br>&ltdiv ClassName="classe" &gt <br>{Stato}<br> &lt/div&gt<br> ) }</div>
+					</div>
+				</div>
+				<div id="USEREF" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>USEREF</h3></div>
+						<div class="col-11 spiegazione mt-2">Mettiamo il caso che dobbiamo assegnare un valore a un tag, oppure dobbiamo combiarne un attributo. <br> In react non possimo nè usare quaryselector nè getelementbyid, ma, per ovviare al problema, è presente UseRef che salva in usa variabile tutti i dati di un tag, quindi possiamo accederci, indicando che vogliamo il tag corrente con current e successivamente l'azione da fare come SetAttribute.</div>
+						<div class="col-11 mt-2 codice mb-2">import React,{UseRef} from 'react' <br> function App() { <br> const cambiacolore=useRef() <br>const Funzione=()=>{ <br> cambiacolore.current.setAttribute("style","background-color:#ffffff) } <br> return( <br>&ltdiv ClassName="classe" ref={cambiacolore} &gt <br> &lt/div&gt<br> ) }</div>
+					</div>
+				</div>
+				<div id="" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
+						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
+						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+					</div>
+				</div>
+				<div id="" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
+						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
+						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+					</div>
+				</div>
 				<div id="" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
