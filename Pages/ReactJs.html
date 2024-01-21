@@ -53,9 +53,9 @@
 					<div class="row align-items-center justify-content-center flex-column">
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#USESTATE">USESTATE</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#USEREF">USEREF</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#SPREAD">OPERATORE SPREAD</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#FIGLI">COMPONENTI FIGLI</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#ROUTER">REACT ROUTER DOM</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
 					</div>
@@ -138,28 +138,28 @@
 						<div class="col-11 mt-2 codice mb-2">import React,{UseRef} from 'react' <br> function App() { <br> const cambiacolore=useRef() <br>const Funzione=()=>{ <br> cambiacolore.current.setAttribute("style","background-color:#ffffff) } <br> return( <br>&ltdiv ClassName="classe" ref={cambiacolore} &gt <br> &lt/div&gt<br> ) }</div>
 					</div>
 				</div>
-				<div id="" class="mb-4"></div>
+				<div id="SPREAD" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
-						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
-						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
-						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+						<div class="co-10 titolo mt-2"><h3>OPERATORE SPREAD</h3></div>
+						<div class="col-11 spiegazione mt-2">L'operatore spread serve a copiare un array dentro un altro</div>
+						<div class="col-11 mt-2 codice mb-2">Lista1=[1,2,3] <br>Lista2,=[...Lista1,4,5,6] --> dentro lista2 ho [1,2,3,4,5,6]</div>
 					</div>
 				</div>
-				<div id="" class="mb-4"></div>
+				<div id="FIGLI" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
-						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
-						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
-						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+						<div class="co-10 titolo mt-2"><h3>COMPONENTI FIGLI</h3></div>
+						<div class="col-11 spiegazione mt-2">In React possimo importare dei componeti dentro altri componenti, per rendere più facile la divisione del ptrogramma. <br> per farlo è ufficiente creare un nuovo file, ricordandosi che i componeti devono avere il noem con l'iniziale maiuscola. <br> successicamnte basta importarlo e inserire un tag per richiemarlo. <br>Questi si chiemano componeti figli visto che non sono allo stesso livello, ma ad un livello più basso, dentro un altro componente. <br> posso anche passare dei parametri ad un componete figlio, che poi lui potrà usare usando props</div>
+						<div class="col-11 mt-2 codice mb-2">//File App.js <br>import React from 'react' <br>import Componte from './Componete'; <br>const App = () => {<br>const numero=3<br>return (&ltValutazione parametro={numero}&gt&lt/Valutazione&gt)<br>}<br>export default App<br><br>//File Componete.js<br>import React from 'react'<br>const Componente = (props) => {<br>return(&ltdiv&gt{props.parametro}&ltdiv/&gt)<br>}<br>export default Componete<br><br> </div>
 					</div>
 				</div>
-				<div id="" class="mb-4"></div>
+				<div id="ROUTER" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
-						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
-						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
-						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+						<div class="co-10 titolo mt-2"><h3>REACT ROUTER DOM</h3></div>
+						<div class="col-11 spiegazione mt-2">React router dom serve a passare da un componente all'altro(componenti fratelli) <br>Per utilizzare questa libreria la scarico tramite npm, la importo nel file index.js e modifico la parte root.render(). <br> Il tag Route cuole 2 attributi: elemnt che è il componte da assegnare(deve essere importato), mentr in path vuole il percorso da utilizzare() <br> per indicare il componete da aprire al caricamnto della pagina mettimo il path='/' per indicare la root. per passare da una "pagina" all'altra posso utizzare Link oppure NavLink. <br>le nell'attributo to inserisco -1 posso tornare alla pagina precadente, e non ad una specifica. <br>Se voglio invece usare un button o unserire il combio di una pagian in una funzione posso usare UseNavigate(). <br> Tutti i comandi richiedono il percorso che abbiamo inserito in path e non il collegamnto al file.</div>
+						<div class="col-11 mt-2 codice mb-2">npm install react-router-dom -->Comando per scaricare <br> import {BrowserRouter,Routes,Routes} from "react-router-dom"-->nel file index.js per importare la libreria <br> root.render( <br> &lt BrowserRouter&gt <br>&lt Routes&gt <br>&lt Route path='/' element={&lt App /&gt} /&gt<br>&lt Route path='/App2' element={&lt App2 /&gt} /&gt <br>&lt /Routes&gt <br>&lt /BrowserRouter&gt <br>); <br><br> &ltLink to={"/"}&gtPrima Pagina&lt/Link&gt <br>&ltNavLink to={"/"}&gtPrima Pagina&lt/NavLink&gt-->mi permette di modificare il link attivo con la regola css .active <br> <br>const link=UseNavigate() <br>const apro=()=>{ Link("/App2") } </div>
 					</div>
 				</div>
 				<div id="" class="mb-4"></div>
