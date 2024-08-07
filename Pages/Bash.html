@@ -40,20 +40,18 @@
 				<div class="col-10 title-indice">INDICE</div>
 				<div class="col-10 col-sm-5 mt-2">
 					<div class="row align-items-center justify-content-center flex-column">
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#necessario">NECESSARIO</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#eseguirefile">ESEGUIRE FILE</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#Comandidibase">COMANDI DI BASE</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#variabili">VARIABILI</a></div>
 					</div>
 				</div>
 				<div class="col-10 col-sm-5">
 					<div class="row align-items-center justify-content-center flex-column">
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#input">INPUT DA TASTIERA</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#if">IF</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#whilefor">WHILE E FOR</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#funzioni">FUNZIONI</a></div>
 					</div>
 				</div>
 			</div>
@@ -62,20 +60,68 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<!-- Singolo elemento -->
 				<!-- Div da usare come link per portare giusto con navbar(Se facevo il link ala row andava sotto la navbar) -->
-				<div id="" class="mb-4"></div>
+				<div id="necessario" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
-						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
-						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
-						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+						<div class="co-10 titolo mt-2"><h3>NECESSARIO</h3></div>
+						<div class="col-11 spiegazione mt-2">Il necessario per creare degli degli script in bash e molto semplice e veloce: un sistema operativo linux ed un editor dei testo qualunque che permetta di editare i file sh (estensione degli scrit per linux)</div>
+						<div class="col-11 mt-2 codice mb-2"></div>
 					</div>
 				</div>
-				<div id="" class="mb-4"></div>
+				<div id="eseguirefile" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
-						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
-						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
-						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+						<div class="co-10 titolo mt-2"><h3>ESEGUIRE FILE</h3></div>
+						<div class="col-11 spiegazione mt-2">I file in bash sono molto semplici da eseguire, l'unica cosa importante è aver dato i permessi al file per essere eseguito( da fare solo la prima volta che si esegue il file) e che la prima riga indichi che è uno script con il path #!/bin/bash</div>
+						<div class="col-11 mt-2 codice mb-2">chmod +x nomefile <br> ./nomefile</div>
+					</div>
+				</div>
+				<div id="Comandidibase" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>COMANDI DI BASE</h3></div>
+						<div class="col-11 spiegazione mt-2">Negli script possiamo inserire una serie di comandi che eseguiremmo manualmente nel terminale.</div>
+						<div class="col-11 mt-2 codice mb-2">rm nomecartella/nomefile -->elimina un file o una cartella <br>mkdir nomecartella -->crea una cartella <br>cat nomefile -->stampa il contenuto del file <br>etc.</div>
+					</div>
+				</div>
+				<div id="variabili" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>VARIABILI</h3></div>
+						<div class="col-11 spiegazione mt-2">Per dichiarare una variabile basta scrivere il nome, assegnandoli subito un valore. <br>bisogna ricordarsi che per usarla bisogna mettere prima del nome il simbolo $ <br>In bash si posso creare anche dei vettori, ovvero una serie di variabili a cui si accede mediante un indice</div>
+						<div class="col-11 mt-2 codice mb-2">n1=14 #creao una varibile e gli inserisco il valore di 14 <br> echo $n1 #stampo a video il valore della variabile <br> echo "il volore della variabile è : $n1" #stampo un testo fisso con alla fine la variaibile <br><br>numeri=() #dichiaro un vettore <br> read numeri[0] #chiedo in input un valore e lo salvo nella prima cella del vettore <br>echo -n "${numeri[0]}" #stampo la prima cella del vettore</div>
+					</div>
+				</div>
+				<div id="input" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>INPUT DA TASTIERA</h3></div>
+						<div class="col-11 spiegazione mt-2">Per catturare un valore messo in unput da un utente utilizzo il comando read seguito dalla variabile in cui salvare quanto inserito dall'utente</div>
+						<div class="col-11 mt-2 codice mb-2">echo -n "inserisci un numero" #con -n indico che non deve andare a capo<br>read numero</div>
+					</div>
+				</div>
+				<div id="if" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>IF</h3></div>
+						<div class="col-11 spiegazione mt-2">Nell' if la condizione deve essere messa tra le doppie parentesi quadre, e al posto di usare le normali condizione si utilizzano una coppia di carattteri.</div>
+						<div class="col-11 mt-2 codice mb-2">if [[ $variavile -gt 0 ]] <br>then <br>*comandi* <br>else <br>*comandi* <br>fi <br><br>-gt --> > <br>-lt --> < <br> -eq --> == <br> -ge --> >= <br> -le --> <=</div>
+					</div>
+				</div>
+				<div id="whilefor" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>WHILE E FOR</h3></div>
+						<div class="col-11 spiegazione mt-2">Il for al differenza di if e while al posto di avere le doppie parentesi quadre vuole le tonde, mentre il while si comporta come l'if. <br>La cosa importante è mettere all'inizio il do e alla fine il done</div>
+						<div class="col-11 mt-2 codice mb-2">for (( i=0;i< 5;i++))<br>do<br>*comandi*<br>done<br><br>while [[ condizione ]]<br>do<br>*comandi*<br>done</div>
+					</div>
+				</div>
+				<div id="funzioni" class="mb-4"></div>
+				<div class="col-10 mt-5">
+					<div class="row argomento">
+						<div class="co-10 titolo mt-2"><h3>FUNZIONI</h3></div>
+						<div class="col-11 spiegazione mt-2">Per facilitare e ordinare lo script possimo creare delle funzioni, che poi andiamo ed ogni volta che ci servono, la cosa importante è che le vunzioni devono essere dichiarate all'inizione dello script. <br>Per richiamere una funzione è sufficiente scrivere il nome della funzione da richiamere</div>
+						<div class="col-11 mt-2 codice mb-2">#!/bin/bash <br>maggiore() { <br>*comandi* } <br> #resto dello script <br> echo "inizio script" <br>maggiore <br>echo "resto dello script"</div>
 					</div>
 				</div>
 
