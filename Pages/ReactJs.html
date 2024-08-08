@@ -56,8 +56,7 @@
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#SPREAD">OPERATORE SPREAD</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#FIGLI">COMPONENTI FIGLI</a></div>
 						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#ROUTER">REACT ROUTER DOM</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
-						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="">LINK</a></div>
+						<div class="col-5 d-flex align-items-center justify-content-center link-indice-div mt-2"><a class="link-indice" href="#contex">CONTEX</a></div>
 					</div>
 				</div>
 			</div>
@@ -162,12 +161,12 @@
 						<div class="col-11 mt-2 codice mb-2">npm install react-router-dom -->Comando per scaricare <br> import {BrowserRouter,Routes,Routes} from "react-router-dom"-->nel file index.js per importare la libreria <br> root.render( <br> &lt BrowserRouter&gt <br>&lt Routes&gt <br>&lt Route path='/' element={&lt App /&gt} /&gt<br>&lt Route path='/App2' element={&lt App2 /&gt} /&gt <br>&lt /Routes&gt <br>&lt /BrowserRouter&gt <br>); <br><br> &ltLink to={"/"}&gtPrima Pagina&lt/Link&gt <br>&ltNavLink to={"/"}&gtPrima Pagina&lt/NavLink&gt-->mi permette di modificare il link attivo con la regola css .active <br> <br>const link=UseNavigate() <br>const apro=()=>{ Link("/App2") } </div>
 					</div>
 				</div>
-				<div id="" class="mb-4"></div>
+				<div id="contex" class="mb-4"></div>
 				<div class="col-10 mt-5">
 					<div class="row argomento">
-						<div class="co-10 titolo mt-2"><h3>TITOLO</h3></div>
-						<div class="col-11 spiegazione mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta illum provident? Voluptatum iste, nobis nulla corporis ea ab nihil, delectus consectetur expedita eius ad itaque quod dolore a minus?</div>
-						<div class="col-11 mt-2 codice mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in, inventore deleniti blanditiis tenetur veritatis a aliquam, illo, officia quis laboriosam qui reiciendis similique temporibus quia laudantium natus enim maiores.</div>
+						<div class="co-10 titolo mt-2"><h3>CONTEX</h3></div>
+						<div class="col-11 spiegazione mt-2">Potrebbe essere che si debba passare dei parametri tra un conponente e un altro, ma nel caso si utilizzi react router dom la cosa risulterebbe un po' difficile. <br>per qusto si può usare una contex, ovvero un area di memoria al cui interno possiamo mettere una variabile, se si devo passare più valori basta creare un oggetto e metterlo all'interno della contex.</div>
+						<div class="col-11 mt-2 codice mb-2">nel file index.js <br>import React, {createContext} from 'react'; <br>... <br> export const condividi=createContext() <br><br>nel conponente <br>import React,{useContext} from 'react' <br>import {condividi} from "./index" <br>... <br>const pippo=useContext(condividi) <br>return ( <br>&ltdiv&gt Componente 1 - {pippo.nome} &lt/div&gt <br>)</div>
 					</div>
 				</div>
 
@@ -214,9 +213,6 @@
 					</div>
 				</div>
 				<div class="row align-items-center justify-content-center">
-					<div class="nav-item Item-Hidden col-12 col-sm-6">
-						<a href="./Arduino.html" class="nav-link d-flex flex-row align-items-center justify-content-center flex-column"><img class="image-NavBar d-sm-flex align-items-sm-center justify-content-sm-center" src="./../Img/Arduino.png" alt="Link3"><div class="d-none d-sm-inline testo-link">ARDUINO</div></a>
-					</div>
 					<div class="nav-item Item-Hidden col-12 col-sm-6">
 						<a href="./Python.html" class="nav-link d-flex flex-row align-items-center justify-content-center flex-column"><img class="image-NavBar d-sm-flex align-items-sm-center justify-content-sm-center" src="./../Img/Python.png" alt="Link3"><div class="d-none d-sm-inline testo-link">PYTHON</div></a>
 					</div>
