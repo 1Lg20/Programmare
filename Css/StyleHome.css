@@ -76,6 +76,7 @@ body{
 	width: 100%;
 	animation-name: CambiaDimensioniOut;
 	animation-duration: 1s;
+	padding: 0;
 }
 
 .card-Linguaggio:hover .Img-Linguaggio{
