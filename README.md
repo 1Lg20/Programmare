@@ -21,3 +21,7 @@ In questo sito raccolgo gli appunti pertinenti alla programmazione durante i 3 a
 > [React Js](https://1lg20.github.io/Programmare/Pages/Python.html)
 
 > [Java](https://1lg20.github.io/Programmare/Pages/Java.html)
+
+> [Php](https://1lg20.github.io/Programmare/Pages/Php.html)
+>
+> [NodeJs](https://1lg20.github.io/Programmare/Pages/Nodejs.html)
